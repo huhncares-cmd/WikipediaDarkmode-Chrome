@@ -1,0 +1,39 @@
+body, h1, h2, h3, h4, table, td, abbr, ul,
+div ul li a, div, p, ul, li,
+#toc span,
+#footer-info-lastmod, #footer-info-copyright {
+    color: #D8DBE2 !important;
+    background: #212121 !important;
+}
+*{
+    color: #D8DBE2 !important;
+}
+.pure-button, .pure-button-primary-progressive{
+    background-color: #ED4D6E !important;
+    border:#ED4D6E solid 1px !important;
+}
+#searchInput{
+    border:#D8DBE2 solid 1px !important;
+    background: #232528 !important;
+    box-shadow: inset 0 0 0 1px #D8DBE2 !important;
+    transition: all 500ms !important;
+}
+#searchInput:hover{
+    border:#ED4D6E solid 1px !important;
+    box-shadow: inset 0 0 0 1px #ED4D6E !important;
+}
+.lang-list-button-wrapper{
+    display: none !important;
+}
+th {
+    background-color: #232528 !important;
+}
+
+a:not(.extiw),
+#footer-places-privacy a, .reference-text a {
+    color: #ED4D6E !important;
+}
+
+img.mwe-math-fallback-image-inline, .helpContents-icon img {
+    filter: invert(100%) !important;
+}
